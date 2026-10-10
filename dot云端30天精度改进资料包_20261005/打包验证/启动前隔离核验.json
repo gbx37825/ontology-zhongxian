@@ -1,0 +1,7 @@
+{
+  "status": "PASSED",
+  "cwd_inside_package": true,
+  "original_workspace_absolute_reads_blocked": true,
+  "all_full_run_initialization_gates_passed": true,
+  "full_30day_run_performed": false
+}

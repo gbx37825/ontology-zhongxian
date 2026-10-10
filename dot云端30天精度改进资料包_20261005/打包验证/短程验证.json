@@ -1,0 +1,88 @@
+{
+  "status": "PASSED",
+  "simulated_seconds": 1800,
+  "stations": 59,
+  "initial_state_parameter_forcing_hashes_match": true,
+  "max_absolute_errors": {
+    "forebay_m": 2.842170943040401e-14,
+    "afterbay_m": 1.4210854715202004e-14,
+    "gate_flow_m3s": 2.842170943040401e-14
+  },
+  "smoke_tolerance": 1e-08,
+  "full_30day_run_performed": false,
+  "runtime": {
+    "modules": [
+      {
+        "name": "pipedream_solver",
+        "path": "/Users/gaobingxiang/code/HydroOS-hangzhou/outputs/dot云端30天精度改进资料包_20261005/资料/中线2025同工况精度验证_20260921/26_冻结基线与后续归因/共享依赖/pipedream_solver/__init__.py",
+        "sha256": "db0bb7ddef39fb523353a72721205c0c5149684c26a48b774898dfdea5083f36"
+      },
+      {
+        "name": "pipedream_solver.gate_hydraulics",
+        "path": "/Users/gaobingxiang/code/HydroOS-hangzhou/outputs/dot云端30天精度改进资料包_20261005/资料/中线2025同工况精度验证_20260921/26_冻结基线与后续归因/共享依赖/pipedream_solver/gate_hydraulics.py",
+        "sha256": "230354693236d21d51ae306173ae92f6fc743830bd36127d79253552f12b107b"
+      },
+      {
+        "name": "pipedream_solver.geometry",
+        "path": "/Users/gaobingxiang/code/HydroOS-hangzhou/outputs/dot云端30天精度改进资料包_20261005/资料/中线2025同工况精度验证_20260921/26_冻结基线与后续归因/共享依赖/pipedream_solver/geometry.py",
+        "sha256": "bc4a441492ae4d23b27221246b623b901df4edbe161fec9f0eb039a4767c8ad3"
+      },
+      {
+        "name": "pipedream_solver.ngeometry",
+        "path": "/Users/gaobingxiang/code/HydroOS-hangzhou/outputs/dot云端30天精度改进资料包_20261005/资料/中线2025同工况精度验证_20260921/26_冻结基线与后续归因/共享依赖/pipedream_solver/ngeometry.py",
+        "sha256": "02ca346e60b7c11a3039d71caf48e80681ca70268997655160e70ff13e75f2e1"
+      },
+      {
+        "name": "pipedream_solver.nsuperlink",
+        "path": "/Users/gaobingxiang/code/HydroOS-hangzhou/outputs/dot云端30天精度改进资料包_20261005/资料/中线2025同工况精度验证_20260921/26_冻结基线与后续归因/共享依赖/pipedream_solver/nsuperlink.py",
+        "sha256": "e7111de442c7046c9a10f3b01d43701510fc6c80b6c10ece99db6538f3864923"
+      },
+      {
+        "name": "pipedream_solver.storage",
+        "path": "/Users/gaobingxiang/code/HydroOS-hangzhou/outputs/dot云端30天精度改进资料包_20261005/资料/中线2025同工况精度验证_20260921/26_冻结基线与后续归因/共享依赖/pipedream_solver/storage.py",
+        "sha256": "808ecd4141aca9e04fbcb27d02d7f23353bd594c26c43c184a2397dd88acffd7"
+      },
+      {
+        "name": "pipedream_solver.superlink",
+        "path": "/Users/gaobingxiang/code/HydroOS-hangzhou/outputs/dot云端30天精度改进资料包_20261005/资料/中线2025同工况精度验证_20260921/26_冻结基线与后续归因/共享依赖/pipedream_solver/superlink.py",
+        "sha256": "bdaf3058fd8770a55bd15462e02f003000db1cf8ef59e4f8daccd0e7981fa97a"
+      },
+      {
+        "name": "wxq_pipedream",
+        "path": "/Users/gaobingxiang/code/HydroOS-hangzhou/outputs/dot云端30天精度改进资料包_20261005/资料/中线2025同工况精度验证_20260921/26_冻结基线与后续归因/共享依赖/wxq_pipedream/__init__.py",
+        "sha256": "ac01983f7d969db18258aa3d02cd4175e10d51c009d0fa248f52e56fef770953"
+      },
+      {
+        "name": "wxq_pipedream.backends",
+        "path": "/Users/gaobingxiang/code/HydroOS-hangzhou/outputs/dot云端30天精度改进资料包_20261005/资料/中线2025同工况精度验证_20260921/26_冻结基线与后续归因/共享依赖/wxq_pipedream/backends.py",
+        "sha256": "58b47d556e23a59e74f4cc4349b7bedd0ba47d276831ed088bb89d7a6098d93d"
+      },
+      {
+        "name": "wxq_pipedream.hydraulic_engine",
+        "path": "/Users/gaobingxiang/code/HydroOS-hangzhou/outputs/dot云端30天精度改进资料包_20261005/资料/中线2025同工况精度验证_20260921/26_冻结基线与后续归因/共享依赖/wxq_pipedream/hydraulic_engine.py",
+        "sha256": "06adacc259424c1ba5466b58c51f3c2a4a40eea312424fde38f278446f477c81"
+      },
+      {
+        "name": "wxq_pipedream.section_geometry",
+        "path": "/Users/gaobingxiang/code/HydroOS-hangzhou/outputs/dot云端30天精度改进资料包_20261005/资料/中线2025同工况精度验证_20260921/26_冻结基线与后续归因/共享依赖/wxq_pipedream/section_geometry.py",
+        "sha256": "4489dae8b3aa6ae8d6ff6b0189e596c81719dcc0c2a5c70e2257780486c8c193"
+      },
+      {
+        "name": "wxq_pipedream.warmup",
+        "path": "/Users/gaobingxiang/code/HydroOS-hangzhou/outputs/dot云端30天精度改进资料包_20261005/资料/中线2025同工况精度验证_20260921/26_冻结基线与后续归因/共享依赖/wxq_pipedream/warmup.py",
+        "sha256": "50784da888950c8161a3154c9403e3dcbb5979e93d33dd3b479a745facf504b8"
+      },
+      {
+        "name": "wxq_pipedream.wxq_to_superlink",
+        "path": "/Users/gaobingxiang/code/HydroOS-hangzhou/outputs/dot云端30天精度改进资料包_20261005/资料/中线2025同工况精度验证_20260921/26_冻结基线与后续归因/共享依赖/wxq_pipedream/wxq_to_superlink.py",
+        "sha256": "5881dee4fb8b65965b13cd2b19a6bb63912b0bebd7654cfb158022d74ca2a6c0"
+      }
+    ],
+    "interpreter": "/Users/gaobingxiang/code/HydroOS-hangzhou/water/pipedream-runner/.venv/bin/python",
+    "numba_jit_disabled": false,
+    "momentum_compiled_signatures": 1,
+    "gate_compiled_signatures": 1,
+    "no_old_water_hydraulic_modules": true,
+    "no_Corelib": true
+  }
+}

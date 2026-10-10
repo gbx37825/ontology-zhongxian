@@ -1,0 +1,9 @@
+# Python 3.11；前六项为本次短程验证使用的版本。
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.0.3
+numba==0.65.1
+llvmlite==0.47.0
+matplotlib==3.11.1
+# 原始 Excel 核查所需；不参与此次短程水动力计算。
+openpyxl>=3.1,<4

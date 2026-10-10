@@ -1,0 +1,7 @@
+{
+  "status": "PASSED",
+  "reference_compared_with_itself": true,
+  "all_group_MAE_RMSE_deltas_zero": true,
+  "improvement_gate_passed": false,
+  "explanation": "自身对照没有精度收益，因此实际改善门槛为false，符合预期。"
+}
